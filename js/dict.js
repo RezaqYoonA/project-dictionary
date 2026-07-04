@@ -64,7 +64,11 @@ function cariKata() {
   cocok.forEach(entri => {
     const blok = document.createElement("div");
     blok.className = "hasil-blok";
-    let isi = `<p><strong>${sorotKata(entri.lahat, kata)}</strong> — ${sorotKata(entri.indonesia, kata)}</p>`;
+    let isi = "";
+if (entri.lahat.trim().includes(" ")) {
+  isi += `<p class="label-peribahasa">Peribahasa</p>`;
+}
+isi += `<p><strong>${sorotKata(entri.lahat, kata)}</strong> — ${sorotKata(entri.indonesia, kata)}</p>`;
     if (entri.contohLahat) {
       isi += `<p class="contoh-kalimat">${entri.contohLahat}`;
       if (entri.contohIndonesia) {
@@ -76,6 +80,13 @@ function cariKata() {
     hasil.appendChild(blok);
   });
 }
+
+const btnAcak = document.getElementById("btnAcak");
+btnAcak.addEventListener("click", () => {
+  const acak = kamus[Math.floor(Math.random() * kamus.length)];
+  input.value = acak.lahat;
+  cariKata();
+});
 
 let timer;
 input.addEventListener("input", () => {
