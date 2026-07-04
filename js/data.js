@@ -13,7 +13,7 @@ Belagak|Rupawan
 Humah|Rumah
 Mutor|Sepeda motor
 Mobil|Mobil
-Bange|Bodoh
+
 Gile|Gila
 Seleme|Pilek
 Iyak|Batuk
