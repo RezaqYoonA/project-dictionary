@@ -1,11 +1,13 @@
 body {
   font-family: system-ui, sans-serif;
-  background: #ede1c4;
+  background: #f2ecd6;
   display: flex;
-  justify-content: center;
-  padding: 48px 16px;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 16px 24px;
   margin: 0;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .kartu {
@@ -13,6 +15,10 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+.logo-sakura {
+  margin-bottom: 8px;
 }
 
 h4 {
@@ -29,58 +35,66 @@ h4 {
 
 .cari-box {
   display: flex;
-  align-items: center;
   gap: 8px;
-  background: #ffffff;
-  border: 1px solid #e0d9c8;
-  border-radius: 999px;
-  padding: 6px 6px 6px 22px;
-  margin: 0 auto 24px auto;
+  margin: 0 auto 28px auto;
   max-width: 360px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 #inputCari {
   flex: 1;
-  border: none;
-  outline: none;
-  background: transparent;
+  border: 1px solid #a2a9b1;
+  border-radius: 4px;
+  padding: 12px 14px;
   font-size: 0.95rem;
-  padding: 10px 0;
+  outline: none;
+  background: #fff;
+}
+
+#inputCari:focus {
+  border-color: #2b6cb0;
 }
 
 #btnCari {
   border: none;
   background: #2b6cb0;
   color: #fff;
-  width: 40px;
-  height: 40px;
-  min-width: 40px;
-  border-radius: 50%;
-  font-size: 1.05rem;
+  width: 48px;
+  border-radius: 4px;
   cursor: pointer;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #btnCari:hover {
   background: #24588f;
 }
 
-.hasil-item {
-  background: #eceef0;
-  border: none;
-  border-radius: 16px;
-  padding: 16px 20px;
-  margin-bottom: 12px;
-  text-align: left;
-  font-size: 0.95rem;
-  color: #333;
+#hasil p {
+  font-size: 1rem;
+  color: #2d2d2d;
+  margin: 6px 0;
 }
 
-.pesan {
-  color: #8a8a7d;
-  font-size: 0.9rem;
+footer {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.terima-kasih {
+  font-size: 0.8rem;
+  color: #7a7a6d;
+  max-width: 480px;
+  line-height: 1.9;
+  margin: 0 auto 8px auto;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #9a9a8d;
+  margin: 0;
 }
