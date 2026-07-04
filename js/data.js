@@ -4,17 +4,23 @@
 // Tinggal tambah baris baru di bawah, tanpa tanda kutip/kurung.
 // =======================================================
 const kamusMentah = `
-Majoh|makan
-Alap|bagus
-Ilok|baik
-Karut|buruk
-Tahok|sayur
-Belagak|rupawan
-Humah|rumah
-Mutor|sepeda motor
+Majoh (Kasar), Makan (Sopan)|Makan
+Alap|Bagus
+Ilok|Baik
+Karut|Buruk
+Tahok|Sayur
+Belagak|Rupawan
+Humah|Rumah
+Mutor|Sepeda motor
 Mobil|Mobil
-Bange|bodoh
-Gile|gila
-Seleme|pilek
-Iyak|batuk
+Bange|Bodoh
+Gile|Gila
+Seleme|Pilek
+Iyak|Batuk
+Tidok|Tidur
+Memulek|Berbaring
+Rande|Janda
+Dude|Duda
+Ngudut|Merokok
+Kanji|Sange
 `;
