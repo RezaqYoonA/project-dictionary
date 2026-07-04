@@ -6,7 +6,7 @@
 const kamusMentah = `
 Majoh (Kasar), Makan (Sopan)|Makan
 Alap|Bagus
-// Peribahasa
+
 Bagai aur dengan tebing|Hubungan yang saling membantu dan menguntungkan
 Air tenang menghanyutkan|Orang pendiam belum tentu tidak berbahaya/berilmu
 
