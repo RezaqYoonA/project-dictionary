@@ -1,24 +1,11 @@
-// =======================================================
-// DATA KAMUS
-// Tambahkan kata baru dengan format:
-// { lahat: "kata bahasa Lahat", indonesia: "arti bahasa Indonesia" },
-// Jangan lupa koma di akhir tiap baris kecuali baris terakhir.
-// =======================================================
-const kamus = [
-  { lahat: "Majoh", indonesia: "makan" },
-  { lahat: "Alap", indonesia: "bagus" },
-  { lahat: "Ilok", indonesia: "baik" },
-  { lahat: "Karut", indonesia: "buruk" },
-  { lahat: "Tahok", indonesia: "sayur" },
-  { lahat: "Belagak", indonesia: "rupawan" },
-  { lahat: "Humah", indonesia: "rumah" },
-  { lahat: "Mutor", indonesia: "sepeda motor" },
-  { lahat: "Mobil", indonesia: "Mobil" },
-  { lahat: "Bange", indonesia: "bodoh" },
-  { lahat: "Gile", indonesia: "gila" },
-  { lahat: "Seleme", indonesia: "pilek" },
-  { lahat: "Iyak", indonesia: "batuk" },
-];
+// Mengubah teks mentah dari data.js menjadi daftar kata siap pakai
+const kamus = kamusMentah
+  .trim()
+  .split("\n")
+  .map(baris => {
+    const [lahat, indonesia] = baris.split("|");
+    return { lahat: lahat.trim(), indonesia: indonesia.trim() };
+  });
 
 const input = document.getElementById("inputCari");
 const tombol = document.getElementById("btnCari");
@@ -49,7 +36,6 @@ function cariKata() {
   });
 }
 
-// Update hasil otomatis tiap mengetik (termasuk otomatis kosong saat dihapus)
 input.addEventListener("input", cariKata);
 tombol.addEventListener("click", cariKata);
 input.addEventListener("keydown", (e) => {
