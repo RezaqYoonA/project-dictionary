@@ -4,7 +4,6 @@
 // Tinggal tambah baris baru di bawah, tanpa tanda kutip/kurung.
 // =======================================================
 const kamusMentah = `
-Majoh (Kasar), Makan (Sopan)|Makan
 Alap|Bagus
 
 Bagai aur dengan tebing|Hubungan yang saling membantu dan menguntungkan
@@ -17,7 +16,7 @@ Belagak|Rupawan
 Humah|Rumah
 Mutor|Sepeda motor
 Mobil|Mobil
-
+Majoh (Kasar), Makan (Sopan)|Makan
 Gile|Gila
 Seleme|Pilek
 Iyak|Batuk
