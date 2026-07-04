@@ -28,9 +28,6 @@ Ngudut|Merokok
 Kanji|Sange
 Bange|Bodoh|Jangan bange nian kau ni!|Jangan bodoh sekali kau ini!
 
-
-// ===== Tambahan dari sumber Bahasa Besemah (Pagaralam) & Bahasa Lahat =====
-// Kata tanya
 Kemane|Kemana
 Dimane|Dimana
 Tuape|Apa
@@ -42,14 +39,13 @@ Ngape|Kenapa
 Sape|Siapa
 Berape|Berapa
 
-// Kata sifat
 Sedut|Malas
 Penyedut|Pemalas
 Buhuk|Jelek
 Karok|Jelek
 Laju|Jadi
 Urung|Tidak jadi
-Dindak|Tidak
+Dindak|Tidak mau
 Dide bedie|Tidak ada
 Dide keruan|Tidak tahu
 Nghindu|Rindu
@@ -60,7 +56,6 @@ Lemak|Enak
 Kudai|Sebentar
 Pacak|Bisa
 
-// Kata kerja
 Cia|Ayo
 Pala|Ayo
 Begawe|Bekerja
@@ -78,8 +73,7 @@ Diambek|Diambil
 Ngambek|Mengambil
 Betanye|Bertanya
 
-// Kata orang
-Kaba|Kamu
+Kaba *Panggilan untuk sebaya*|Kamu
 Die|Dia
 Bapang|Bapak
 Umak|Ibu
@@ -89,17 +83,18 @@ Bini|Istri
 Laki|Suami
 Kance|Teman
 
-// Kata benda
+
 Cangkir|Gelas untuk minum
 Mate|Mata
-Dai|Muka
+Daii|Muka
 Gumbak|Rambut
 Palak|Kepala
 Keting|Kaki
 Cendila|Sandal
 Gulai|Sayur
+Selop|Sandal Jepit
 
-// Kata umum lain
+
 Harge|Harga
 Badah|Tempat, rumah
 Ame|Kalau
@@ -108,7 +103,7 @@ Embauw|Bau
 Luse|Lusa
 Seadenye|Apa adanya
 
-// Abjad B
+
 Beganti|Setia kawan
 Bebanci|Bersih-bersih
 Bejighat|Kusut
@@ -153,8 +148,9 @@ Baseng|Terserah
 Baseng-baseng|Sembarangan
 Beghas|Beras
 Badouki|Pukuli
+Penataran|Pelataran 
 
-// Abjad C
+
 Celudu|Kelewat, keterlaluan
 Cancungi|Memarahi
 Cakgum|Melompat dari atas ke bawah
@@ -169,8 +165,39 @@ Cacak pacak|Sok pintar
 Cengkerang|Alat sabit, potong rumput
 Cecengeh|Senyum tanpa sebab jelas
 Cubuk|Canting, alat ukur berat beras
+Culuk|Obor
+Kemuhu|Galah
+Tengkiang|Tempat menyimpan padi
+Kasam|Permentasi ikan 
+Bufet, Gerubuk|Lemari
+Tikae|Tikar
+Sidu|Sendok
+Pinggan|Piring
+Cung kedire|Tomat
+Cabi|Cabai
+Sepan|Celana jeans
+Hebong|Rebung bambu
+Niow|Buah kelapa
+Calok|Terasi
+Semelile|Buah sawo
+Cekow|Kencur
+Burung cekok|Pungguk
+Buah nangkebelande|Sirsak
+Pancow|Air pancur
+Atae'an|Wilayah
+Hibot|Angin 
+Bungin|Pasir
+Kiling|Batu bara
+Nedak|Melihat pemandangan
+Senai|Santai
+Dugan|Kelapa muda
+Ngetam|Panen padi darat
+Mehabas|Panen padi sawah
+Nerak|Membajak sawah
+Kerite|Sepeda
 
-// Abjad D
+
+
 Diket|Sedikit
 Dikinak|Dilihat
 Dek ngajong|Tidak disuruh
@@ -181,13 +208,13 @@ Duaghe|Pintu
 Denie|Dunia
 Dengah|Dia (perempuan)
 
-// Abjad E
+
 Emben|Tempat tidur nenek
 Enjagal|Mengejar
 Entue|Mertua
 Eghap|Iris tipis
 
-// Abjad G
+
 Guringangaʼ|Berguling-guling
 Gegauk|Menjerit
 Gelmat|Pelapon
@@ -200,7 +227,7 @@ Ghelok|Toples
 Ghungaw|Mengantuk karena kurang tidur
 Gale|Semua
 
-// Abjad I
+
 Ibatan|Nasi bungkus, bungkusan makanan
 Ingunan|Peliharaan
 Ipagh|Ipar perempuan
@@ -208,7 +235,7 @@ Ibung|Bibi
 Injik|Suka
 Isandi|Dari
 
-// Abjad J
+
 Judoh|Jodoh
 Jegelkah mate|Membuka mata
 Jabalan|Maling
@@ -219,7 +246,7 @@ Jejelenge tapai|Kolokan, kekanak-kanakan
 Jerambah|Jembatan
 Jegheng|Jengkol
 
-// Abjad K
+
 Keruan|Tahu
 Kandek|Untuk
 Kecek|Kecil
@@ -230,16 +257,17 @@ Keduro|Babi
 Keduk|Babi
 Kancut|Pakaian bekas, CD
 Kekibang|Orang-orangan sawah
-Karuk|Jelek
+Karuk/Karut|Jelek
 Kebat|Ikat
 Kawe|Buah kopi
 Kulat|Kotor
 Kulot|Kuno
 Kunam|Kencang
 Kelam|Hilang
+Kunap|Sangat jauh
 
-// Abjad L
-Linjang|Suka pada perempuan
+
+Linjang|Suka pada perempuan/Laki-laki
 Liwat|Lewat
 Lenget|Hilang
 Luyak|Lembut
@@ -254,7 +282,7 @@ Langguk|Sombong
 Libagh|Luas
 Lebuska|Ungkapkah
 
-// Abjad M
+
 Mato|Boro-boro
 Memanyok|Setengah matang
 Mikat|Menangkap
@@ -269,13 +297,13 @@ Makan liot|Makan di rumah orang yang punya hajatan
 Mamak|Paman
 Matah|Mentah
 
-// Abjad N
+
 Njale|Menangkap ikan dengan jaring
 Nuleh|Melihat kiri kanan
 Ncakagh|Mencari
 Nanak|Masak
 Ndangok|Melamun
-Nduk|Ibu
+Ndong|Ibu
 Ndung bisan|Ibu mertua dari kakak atau adik
 Nyurum|Pakai
 Nyurumka|Memakaikan
@@ -287,18 +315,19 @@ Nutus|Memukul
 Ngamben|Menggendong dari belakang
 Ncelingkek|Mencolok, nangkring di tempat tinggi
 Nceroʼol|Tiba-tiba muncul
+Umak|Ibu
 
-// Abjad A (sumber Bahasa Lahat)
+
 Ading|Adik
 Agas|Nyamuk
 Ajong|Suruh
 Anak dahe|Adik ipar perempuan
 Angat|Panas
 Au|Ya
-Ayeʼ|Air
-Ayeʼ angat|Air panas
-Ayeʼ dingin|Air dingin
-Ayuk|Mbak
+Ayek|Air
+Ayek angat|Air panas
+Ayek dingin|Air dingin
+Ayuk|Mbak, Kakak perempuan
 Angget|Sisa
 Angket|Angkat
 Akap|Pagi, gelap
