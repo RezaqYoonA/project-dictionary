@@ -5,10 +5,19 @@
 // Jangan lupa koma di akhir tiap baris kecuali baris terakhir.
 // =======================================================
 const kamus = [
-  { lahat: "ilok", indonesia: "baik" },
-  { lahat: "belagak", indonesia: "ganteng" },
-  { lahat: "perikil", indonesia: "curang" },
-  { lahat: "majoh", indonesia: "makan" },
+  { lahat: "Majoh", indonesia: "makan" },
+  { lahat: "Alap", indonesia: "bagus" },
+  { lahat: "Ilok", indonesia: "baik" },
+  { lahat: "Karut", indonesia: "buruk" },
+  { lahat: "Tahok", indonesia: "sayur" },
+  { lahat: "Belagak", indonesia: "rupawan" },
+  { lahat: "Humah", indonesia: "rumah" },
+  { lahat: "Mutor", indonesia: "sepeda motor" },
+  { lahat: "Mobil", indonesia: "Mobil" },
+  { lahat: "Bange", indonesia: "bodoh" },
+  { lahat: "Gile", indonesia: "gila" },
+  { lahat: "Seleme", indonesia: "flu" },
+  { lahat: "Iyak", indonesia: "batuk" },
 ];
 
 const input = document.getElementById("inputCari");
@@ -20,7 +29,6 @@ function cariKata() {
   hasil.innerHTML = "";
 
   if (kata === "") {
-    hasil.innerHTML = "<p class='pesan'>Ketik kata dulu, ya.</p>";
     return;
   }
 
@@ -30,18 +38,19 @@ function cariKata() {
   );
 
   if (cocok.length === 0) {
-    hasil.innerHTML = "<p class='pesan'>Kata tidak ditemukan di kamus.</p>";
+    hasil.innerHTML = "<p>Kata tidak ditemukan di kamus.</p>";
     return;
   }
 
   cocok.forEach(entri => {
-    const kartu = document.createElement("div");
-    kartu.className = "hasil-item";
-    kartu.innerHTML = `<strong>${entri.lahat}</strong> — ${entri.indonesia}`;
-    hasil.appendChild(kartu);
+    const baris = document.createElement("p");
+    baris.innerHTML = `<strong>${entri.lahat}</strong> — ${entri.indonesia}`;
+    hasil.appendChild(baris);
   });
 }
 
+// Update hasil otomatis tiap mengetik (termasuk otomatis kosong saat dihapus)
+input.addEventListener("input", cariKata);
 tombol.addEventListener("click", cariKata);
 input.addEventListener("keydown", (e) => {
   if (e.key === "Enter") cariKata();
