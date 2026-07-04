@@ -16,7 +16,7 @@ const kamus = [
   { lahat: "Mobil", indonesia: "Mobil" },
   { lahat: "Bange", indonesia: "bodoh" },
   { lahat: "Gile", indonesia: "gila" },
-  { lahat: "Seleme", indonesia: "flu" },
+  { lahat: "Seleme", indonesia: "pilek" },
   { lahat: "Iyak", indonesia: "batuk" },
 ];
 
