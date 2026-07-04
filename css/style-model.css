@@ -190,6 +190,31 @@ footer {
   margin: 0 auto 8px auto;
 }
 
+.label-peribahasa {
+  display: inline-block;
+  font-size: 0.7rem;
+  background: var(--button-bg);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 4px;
+}
+
+.tombol-acak {
+  margin-top: 14px;
+  background: none;
+  border: 1px solid var(--input-border);
+  color: var(--text-muted);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
 .copyright {
   font-size: 0.75rem;
   color: var(--copyright-text);
