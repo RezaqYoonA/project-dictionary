@@ -9,16 +9,44 @@
 <body>
 
   <main class="kartu">
-    <h4>Kamus Bahasa Lahat ↔ Indonesia</h4>
+    <div class="logo-sakura" aria-hidden="true">
+      <svg viewBox="0 0 120 120" width="90" height="90" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <path id="petal" d="M60,60 C48,45 40,25 48,10 C52,4 56,4 60,12 C64,4 68,4 72,10 C80,25 72,45 60,60 Z" />
+        </defs>
+        <g fill="none" stroke="#d9503d" stroke-width="2" stroke-linejoin="round">
+          <use href="#petal" transform="rotate(0 60 60)"/>
+          <use href="#petal" transform="rotate(72 60 60)"/>
+          <use href="#petal" transform="rotate(144 60 60)"/>
+          <use href="#petal" transform="rotate(216 60 60)"/>
+          <use href="#petal" transform="rotate(288 60 60)"/>
+        </g>
+        <circle cx="60" cy="60" r="6" fill="#d9503d"/>
+      </svg>
+    </div>
+
+    <h4>Kamus Bahasa Lahat &harr; Indonesia</h4>
     <p class="sub">Masukkan kata dalam Bahasa Lahat atau Indonesia</p>
 
     <div class="cari-box">
       <input type="text" id="inputCari" placeholder="Ketik kata di sini...">
-      <button id="btnCari" aria-label="Cari">🔍</button>
+      <button id="btnCari" aria-label="Cari">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round">
+    <circle cx="10.5" cy="10.5" r="6.5"/>
+    <line x1="15.5" y1="15.5" x2="21" y2="21"/>
+  </svg>
+      </button>
     </div>
 
     <div id="hasil"></div>
   </main>
+
+  <footer>
+    <p class="terima-kasih">
+      Terima kasih &bull; ありがとうございます &bull; Merci &bull; Danke &bull; Dank u wel &bull; Grazie &bull; شكراً &bull; Grazcha
+    </p>
+    <p class="copyright">&copy; All Rights Reserved 2026</p>
+  </footer>
 
   <script src="js/dict.js"></script>
 </body>
