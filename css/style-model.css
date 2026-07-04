@@ -1,0 +1,86 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #ede1c4;
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.kartu {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+  color: #1a1a1a;
+}
+
+.sub {
+  font-size: 0.85rem;
+  color: #6b6b5f;
+  margin-bottom: 24px;
+}
+
+.cari-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #e0d9c8;
+  border-radius: 999px;
+  padding: 6px 6px 6px 22px;
+  margin: 0 auto 24px auto;
+  max-width: 360px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#inputCari {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.95rem;
+  padding: 10px 0;
+}
+
+#btnCari {
+  border: none;
+  background: #2b6cb0;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  font-size: 1.05rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#btnCari:hover {
+  background: #24588f;
+}
+
+.hasil-item {
+  background: #eceef0;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  text-align: left;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.pesan {
+  color: #8a8a7d;
+  font-size: 0.9rem;
+}
