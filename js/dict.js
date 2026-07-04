@@ -5,9 +5,10 @@
 // Jangan lupa koma di akhir tiap baris kecuali baris terakhir.
 // =======================================================
 const kamus = [
-  { lahat: "kata_lahat_1", indonesia: "arti_indonesia_1" },
-  { lahat: "kata_lahat_2", indonesia: "arti_indonesia_2" },
-  { lahat: "kata_lahat_3", indonesia: "arti_indonesia_3" },
+  { lahat: "ilok", indonesia: "baik" },
+  { lahat: "belagak", indonesia: "ganteng" },
+  { lahat: "perikil", indonesia: "curang" },
+  { lahat: "majoh", indonesia: "makan" },
 ];
 
 const input = document.getElementById("inputCari");
