@@ -77,7 +77,11 @@ function cariKata() {
   });
 }
 
-input.addEventListener("input", cariKata);
+let timer;
+input.addEventListener("input", () => {
+  clearTimeout(timer);
+  timer = setTimeout(cariKata, 150);
+});
 tombol.addEventListener("click", cariKata);
 input.addEventListener("keydown", (e) => {
   if (e.key === "Enter") cariKata();
