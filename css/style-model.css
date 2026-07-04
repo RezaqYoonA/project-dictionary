@@ -1,6 +1,37 @@
+:root {
+  --bg: #f2ecd6;
+  --text-primary: #1a1a1a;
+  --text-muted: #6b6b5f;
+  --text-result: #2d2d2d;
+  --footer-text: #7a7a6d;
+  --copyright-text: #9a9a8d;
+  --input-bg: #ffffff;
+  --input-border: #a2a9b1;
+  --input-text: #1a1a1a;
+  --button-bg: #2b6cb0;
+  --button-bg-hover: #24588f;
+  --sakura-color: #d9503d;
+}
+
+[data-theme="dark"] {
+  --bg: #1e1b16;
+  --text-primary: #f0ead9;
+  --text-muted: #b8b2a0;
+  --text-result: #ece6d4;
+  --footer-text: #9c9686;
+  --copyright-text: #7d786a;
+  --input-bg: #2a2620;
+  --input-border: #55503f;
+  --input-text: #f0ead9;
+  --button-bg: #3d7dc0;
+  --button-bg-hover: #5590d6;
+  --sakura-color: #ff7a5c;
+}
+
 body {
   font-family: system-ui, sans-serif;
-  background: #f2ecd6;
+  background: var(--bg);
+  color: var(--text-primary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +39,24 @@ body {
   margin: 0;
   min-height: 100vh;
   box-sizing: border-box;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tombol-tema {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
 }
 
 .kartu {
@@ -21,15 +70,54 @@ body {
   margin-bottom: 8px;
 }
 
+.logo-sakura g {
+  stroke: var(--sakura-color);
+}
+
+.logo-sakura circle {
+  fill: var(--sakura-color);
+}
+
 h4 {
-  font-size: 1.2rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.25rem;
   margin-bottom: 4px;
-  color: #1a1a1a;
+  color: var(--text-primary);
+}
+
+.contoh-kata {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  line-height: 2.2;
+}
+
+.chip-contoh {
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  color: var(--button-bg);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.chip-contoh:hover {
+  background: var(--button-bg);
+  color: #fff;
+}
+
+#hasil mark {
+  background: none;
+  color: var(--button-bg);
+  font-weight: 700;
+  padding: 0;
 }
 
 .sub {
   font-size: 0.85rem;
-  color: #6b6b5f;
+  color: var(--text-muted);
   margin-bottom: 24px;
 }
 
@@ -42,21 +130,22 @@ h4 {
 
 #inputCari {
   flex: 1;
-  border: 1px solid #a2a9b1;
+  border: 1px solid var(--input-border);
   border-radius: 4px;
   padding: 12px 14px;
   font-size: 0.95rem;
   outline: none;
-  background: #fff;
+  background: var(--input-bg);
+  color: var(--input-text);
 }
 
 #inputCari:focus {
-  border-color: #2b6cb0;
+  border-color: var(--button-bg);
 }
 
 #btnCari {
   border: none;
-  background: #2b6cb0;
+  background: var(--button-bg);
   color: #fff;
   width: 48px;
   border-radius: 4px;
@@ -65,18 +154,15 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #btnCari:hover {
-  background: #24588f;
+  background: var(--button-bg-hover);
 }
 
 #hasil p {
   font-size: 1rem;
-  color: #2d2d2d;
+  color: var(--text-result);
   margin: 6px 0;
 }
 
@@ -87,7 +173,7 @@ footer {
 
 .terima-kasih {
   font-size: 0.8rem;
-  color: #7a7a6d;
+  color: var(--footer-text);
   max-width: 480px;
   line-height: 1.9;
   margin: 0 auto 8px auto;
@@ -95,6 +181,6 @@ footer {
 
 .copyright {
   font-size: 0.75rem;
-  color: #9a9a8d;
+  color: var(--copyright-text);
   margin: 0;
 }
