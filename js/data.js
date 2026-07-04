@@ -5,10 +5,10 @@
 // =======================================================
 const kamusMentah = `
 Alap|Bagus
-
 Bagai aur dengan tebing|Hubungan yang saling membantu dan menguntungkan
 Air tenang menghanyutkan|Orang pendiam belum tentu tidak berbahaya/berilmu
-
+Gancang|Cepat
+Nian|Sangat
 Ilok|Baik
 Karut|Buruk
 Tahok|Sayur
@@ -26,5 +26,5 @@ Rande|Janda
 Dude|Duda
 Ngudut|Merokok
 Kanji|Sange
-Bange|bodoh|Jangan bange nian kau ni!|Jangan bodoh sekali kau ini!
+Bange|Bodoh|Jangan bange nian kau ni!|Jangan bodoh sekali kau ini!
 `;
