@@ -23,5 +23,5 @@ Rande|Janda
 Dude|Duda
 Ngudut|Merokok
 Kanji|Sange
-Kele, Kudai, contoh: Kele ku gahi! = Nanti Saya temui!|Nanti
+Bange|bodoh|Jangan bange nian kau ni!|Jangan bodoh sekali kau ini!
 `;
