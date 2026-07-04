@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dictionary</title>
+  <meta name="description" content="Kamus online Bahasa Lahat - Indonesia, lengkap dengan contoh kalimat dan peribahasa.">
+<meta property="og:title" content="Kamus Bahasa Lahat ↔ Indonesia">
+<meta property="og:description" content="Cari arti kata dan peribahasa Bahasa Lahat, lengkap dengan contoh kalimat.">
+<meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cdefs%3E%3Cpath id='p' d='M60,60 C48,45 40,25 48,10 C52,4 56,4 60,12 C64,4 68,4 72,10 C80,25 72,45 60,60 Z'/%3E%3C/defs%3E%3Cg fill='none' stroke='%23d9503d' stroke-width='4'%3E%3Cuse href='%23p' transform='rotate(0 60 60)'/%3E%3Cuse href='%23p' transform='rotate(72 60 60)'/%3E%3Cuse href='%23p' transform='rotate(144 60 60)'/%3E%3Cuse href='%23p' transform='rotate(216 60 60)'/%3E%3Cuse href='%23p' transform='rotate(288 60 60)'/%3E%3C/g%3E%3Ccircle cx='60' cy='60' r='6' fill='%23d9503d'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/style-model.css?v=4">
 </head>
 <body>
@@ -26,6 +31,17 @@
         <circle cx="60" cy="60" r="6" fill="#d9503d"/>
       </svg>
     </div>
+    <button id="btnAcak" class="tombol-acak" type="button">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="3" width="18" height="18" rx="3"/>
+    <circle cx="8" cy="8" r="1.3" fill="currentColor" stroke="none"/>
+    <circle cx="16" cy="8" r="1.3" fill="currentColor" stroke="none"/>
+    <circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/>
+    <circle cx="8" cy="16" r="1.3" fill="currentColor" stroke="none"/>
+    <circle cx="16" cy="16" r="1.3" fill="currentColor" stroke="none"/>
+  </svg>
+  Kata Acak
+    </button>
 
     <h4>Kamus Bahasa Lahat &harr; Indonesia</h4>
     <p class="sub">Masukkan kata dalam Bahasa Lahat atau Indonesia</p>
@@ -41,7 +57,7 @@
     </div>
     <div id="contohKata" class="contoh-kata"></div>
 
-    <div id="hasil"></div>
+    <div id="hasil" aria-live="polite"></div>
     
   </main>
 
