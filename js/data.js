@@ -38,6 +38,7 @@ Kebile|Kapan
 Ngape|Kenapa
 Sape|Siapa
 Berape|Berapa
+Pehiuk|Periuk
 
 Sedut|Malas
 Penyedut|Pemalas
@@ -338,4 +339,30 @@ Awangan|Jendela
 Jendele|Jendela
 Anti-antik|Tempat nyantai
 Agang|Berkendaraan sangat cepat, ngebut
+
+
+
+AWAK KECIK DUDUK DILUAN NYELINAP KEMENYAN BAPANG ADE|Masih kecil duduk di tempat orang tua, membakar menyan ayahnya hadir. Maknanya: orang yang ingin menonjol, tidak melalui aturan sehingga mengambil hak orang lain, orang yang tidak mengerti adat.
+AYIK DEK KEGHUH, IKAN DAPAT|Air tidak keruh ikan didapat. Maknanya: situasi tetap tenang, tujuan yang di maksud dapat tercapai. Biasanya orang yang penuh kebijaksanaan.
+ANGAT - ANGAT TAI AYAM|Angat - angat seperti tai ayam. Maknanya: orang yang bersemangat hanya sebentar, biasanya perkumpulan organisasi.
+AWAK GALAK MARE DIAJAK|Orang yang mau, di ajak lagi. Sudah kepengen di tawari lagi. Maknanya: Seseorang yang sudah merindukan sesuatu atau seseorang pemidi yang sudah cinta, atau seorang pemuda yang memanah hati tau- tau ada tawaran dari yang bersangkutan. Indonesianya pucuk dicinta ulam pun tiba.
+ANJING BUAS, BABI MELAWAN, BETEMU DI TANAH MUNGGU|Anjing yang bertemu babi yang garang. bertemu di atas tanah yang meninggi ( gunung kecil ). Maknanya: Pertarungan yang sama - sama bernafsu dan sama - sama berkeinginan menundukkan lawan.
+AUS UMBAN DI JAMBAT|Haus jatuh di jambatan. Maknanya: orang yang sudah menginginkan sesuatu, tiba- tiba bertemu dengan yang di inginkan itu.
+AWAK PANDAK NAK NGENTAM PAGU, PERCUN NDAK NIMBAK BULAN|Tubuh( fisik ) yang pendek mau menerjang loteng. Petasan hendak menembak bulan. Maknanya: orang yang bercita - cita yang tidak seimbang dengan modal ( kekuatan ).
+BIAWAK DIGIRING KEAYIK|Biawak digiring ke kali. GAJAH DI GIRING KE BE GHEMBAN: Gajah di giring ke kubangannya. Maknanya: orang yang sudah mau disuruh pula.
+BETUAH NJADI BUAH|Betuah menjadi buah. DIDE BETUAH BUNGE NDIE: Tidak betuah memang buah. Maknanya: bila rencana atau cita - cita tercapai, memang itu yang di inginkan, tidak tercapai apa boleh buat.
+BELUM MASUK LA NGELUAGH|Belum dimasuki sudah mau keluar. Maknanya: selalu takut atau ragu - ragu dengan bayangan, belum menyerang sudah menyerah.
+BELUM BEPALU GEMELUDAK|Belum berunding sudah ruwet. SATE BEPALU GEMELINTE: setelah berunding lebih ruwet. Maknanya: belum di mulai sudah ramai, setelah di mulai lebih rame lagi ( menjadi berita aktual ).
+BESISIK LAJU BEGHIUH|Bersisik - sisik lalu di canangkan. Maknanya: mau diam - diam karena masih perlu di rahasiakan atau karena sebab lain belum perlu dibicarakan. Akan tetapi, permasalahnya lalu terpaksa di canangkan atau di sebar luaskan.
+CALAK IKUK KERBAU|Cerdik, seperti ekor kerbau. Maknanya: orang yang suka berbuat atau berbicara, yang menurut dia pandai, cerdik, lihai, dsb. namun pada hakekatnya perbuatan atau perkataannya itu adalah merugikan dirinya sendiri.
+DULUAN PACAK TIGHA TAU|Lebih dulu merasa pandai dari pada kenyataannya. Maknanya: seseorang yang apriori atau orang yang mencanangkan informasi mentah.
+DIBUNUH KAH MATI, DI GANTUNG KAH TINGGI|Di bunuh akan mati di gantung akan tinggi. Maknanya: penyerahan seseorang yang hutang dan belum ada jalan untuk membayarnya, terserah kepada yang menagih.
+DULULAH BEKETIK TIGHAH BETELUGH|Lebih dulu suaranya dari pada bertelur ( ayam ). Maknanya: seseorang atau sesuatu golongan yang gambar gembor terhadap sesuatu yang masih perlu di rahasiakan.
+DEGE DUGE KATOU|Coba- coba seperti burung takou membikin sarang. Maknanya: seseorang yang meraba - raba kekuatan lawan, kalu lembut di makannya dan kalau keras dia mundur.
+DIDE DI MAKAN SIKU|Tidak memakai ukuran. Maknanya: pembicaraan atau tindakan seseorang atau sesuatu golongan yang tidak pada tempatnya ( dalam asal bunyi ).
+DIMANE PEGHIUK PECAH|Dimana pehiuk pecah. DISITU TEMBIKAE TINGGAL: di situ tembikarnya tinggal. Maknanya: dimana cita - cita atau perjuangan yang tidak dapat lagi di teruskan, waktu itulah baru berhenti.
+DUE KERME BINTI MANDI|Dua hasil burung binti mandi. Maknanya: sama dengan pribahasa Indonesia, sambil berenang minum air.
+DUDUK BATU BEDIGHI|Duduk seperti batu. kayu: berdiri seperti kayu. Maknanya: seseorang yang harus tetap sebagi penanggung jawab dalam suatu keluarga ( adat ).
+DULU GALAK NGAPAH NYAMOU|Apa bila berjalan duluan siap basah. KEDIAN GALAK BEBENTALAN: apa bila berjalan dibelakang siap memikul beban.
+
 `;
